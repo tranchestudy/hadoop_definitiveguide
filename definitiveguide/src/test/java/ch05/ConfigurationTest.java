@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.ionia.hadoop.definitiveguide.ch05;
+package ch05;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
