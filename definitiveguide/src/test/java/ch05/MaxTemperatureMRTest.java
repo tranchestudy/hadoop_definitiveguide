@@ -75,6 +75,7 @@ public class MaxTemperatureMRTest {
 				+ "99999V0203201N00261220001CN9999999N9+99991+99999999999");
 				                       //Temperature   ^^^^^
 
+		@SuppressWarnings("unchecked")
 		MaxTemperatureMapper.Context context = mock(MaxTemperatureMapper.Context.class);
 		
 		mapper.map(null, value, context);
